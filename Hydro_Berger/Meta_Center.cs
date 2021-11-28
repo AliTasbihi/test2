@@ -8,6 +8,7 @@ namespace Hydro_Berger
 {
     class Meta_Center
     {
+        public string name;
         public List<string> Y_ship { get; set; } = new List<string>();
         public List<string> Simpson { get; set; } = new List<string>();
         public double D { get; set; }
